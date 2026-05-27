@@ -1,0 +1,27 @@
+let str_a: string = `hello`;
+let str_b: string = `owu`;
+let str_c: string = `com`;
+let str_d: string = `ua`;
+let num_a: number = 1;
+let num_b: number = 10;
+let num_c: number = -999;
+let num_d: number = 123;
+let num_e: number = 3.14;
+let num_f: number = 2.7;
+let num_g: number = 16;
+let bool_a: boolean = true;
+let bool_b: boolean = false;
+
+console.log(str_a);
+console.log(str_b);
+console.log(str_c);
+console.log(str_d);
+console.log(num_a);
+console.log(num_b);
+console.log(num_c);
+console.log(num_d);
+console.log(num_e);
+console.log(num_f);
+console.log(num_g);
+console.log(bool_a);
+console.log(bool_b);

@@ -11,7 +11,11 @@
     "target": "esnext",
     "types": [],
     // For nodejs:
-    // "lib": ["esnext"],
+    "lib": [
+      "esnext",
+      "DOM",
+      "DOM.Iterable",
+    ],
     // "types": ["node"],
     // and npm install -D @types/node
 
@@ -21,7 +25,7 @@
     "declarationMap": true,
 
     // Stricter Typechecking Options
-    "noUncheckedIndexedAccess": true,
+    "noUncheckedIndexedAccess": false,
     "exactOptionalPropertyTypes": true,
 
     // Style Options
